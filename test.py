@@ -43,7 +43,7 @@ ins = INS(
 )
 
 log_file_name = sys.argv[1]
-f = open(log_file_name, 'r')
+f = open(log_file_name, 'rb')
 
 while True:
 	try:
